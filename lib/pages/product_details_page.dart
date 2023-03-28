@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:betterask_exam/bloc/product_bloc.dart';
-import 'package:betterask_exam/bloc/product_event.dart';
-import 'package:betterask_exam/bloc/product_state.dart';
+import 'package:flutter_rest_api/bloc/product_bloc.dart';
+import 'package:flutter_rest_api/bloc/product_event.dart';
+import 'package:flutter_rest_api/bloc/product_state.dart';
 
 class ProductDetailsPage extends StatefulWidget {
   final String productId;

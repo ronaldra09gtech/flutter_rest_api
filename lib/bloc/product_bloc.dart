@@ -1,10 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:betterask_exam/bloc/product_event.dart';
-import 'package:betterask_exam/bloc/product_state.dart';
-import 'package:betterask_exam/locator.dart';
-import 'package:betterask_exam/models/product.dart';
-import 'package:betterask_exam/models/product_details.dart';
-import 'package:betterask_exam/services/product_service.dart';
+import 'package:flutter_rest_api/bloc/product_event.dart';
+import 'package:flutter_rest_api/bloc/product_state.dart';
+import 'package:flutter_rest_api/locator.dart';
+import 'package:flutter_rest_api/models/product.dart';
+import 'package:flutter_rest_api/models/product_details.dart';
+import 'package:flutter_rest_api/services/product_service.dart';
 
 class ProductBloc extends Bloc<ProductEvent, ProductState> {
   final ProductService _productService = locator<ProductService>();

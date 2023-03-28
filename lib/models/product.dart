@@ -1,4 +1,4 @@
-import 'package:betterask_exam/models/product_details.dart';
+import 'package:flutter_rest_api/models/product_details.dart';
 
 class Product {
   final String id;
